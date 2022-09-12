@@ -24,7 +24,23 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
+
 }
+
+/*Change Scrollbar Style*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+}
+
+/*Change Scrollbar Style*/
 
 ul {
     list-style: none;
